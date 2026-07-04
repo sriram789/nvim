@@ -1,0 +1,16 @@
+# Lazy.nvim plugins
+lazy-lock.json
+plugin/
+
+# Local data
+spell/
+swap/
+undo/
+backup/
+session/
+
+# OS
+.DS_Store
+
+# Logs
+*.log

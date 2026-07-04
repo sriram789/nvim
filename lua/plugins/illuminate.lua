@@ -1,0 +1,34 @@
+return {
+	{
+		"RRethy/vim-illuminate",
+
+		event = "BufReadPost",
+
+		opts = {
+			delay = 200,
+			under_cursor = true,
+		},
+
+		config = function(_, opts)
+			require("illuminate").configure(opts)
+		end,
+
+		keys = {
+			{
+				"]]",
+				function()
+					require("illuminate").goto_next_reference(false)
+				end,
+				desc = "Next Reference",
+			},
+
+			{
+				"[[",
+				function()
+					require("illuminate").goto_prev_reference(false)
+				end,
+				desc = "Previous Reference",
+			},
+		},
+	},
+}
