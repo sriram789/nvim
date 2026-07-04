@@ -4,6 +4,8 @@
 
 Welcome to a sleek, modern, and highly-optimized **Neovim configuration** designed to transform Neovim into a blazing-fast, IDE-like development environment. Powered by **Lazy.nvim**, themed with **Catppuccin Mocha**, and configured for a superior developer experience across multiple languages.
 
+![Neovim IDE](./assets/nvim_ide.png)
+
 ---
 
 ## ✨ Features At A Glance
