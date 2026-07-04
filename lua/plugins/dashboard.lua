@@ -62,7 +62,7 @@ return {
 				},
 
 				footer = {
-					"Happy Coding 🚀",
+					"First, solve the problem. Then, write the code. 💻",
 				},
 			},
 		},
